@@ -6,7 +6,7 @@ A single-page, presentation-friendly class project site about *The Great Divorce
 ## Design direction
 - **Design movement:** Literary editorial / liminal science fiction, an art book interface that moves from charcoal grey uncertainty toward warm, luminous clarity.
 - **Core principles:** narrative before decoration; high-contrast reading; tactile “field notes” details; purposeful motion that feels like a journey.
-- **Color philosophy:** ink navy and mist grey create the Grey Town; parchment and pale gold suggest the solid country; vermilion marks choices, warnings, and moments of honesty; sea-glass green is reserved for transformation and “yes.”
+- **Color philosophy:** deep blue creates the Grey Town and gives the page a strong literary foundation; white space keeps the project crisp and readable; red marks choices, warnings, and moments of honesty; lighter blue shades create hierarchy without leaving the red, blue, and white palette.
 - **Layout paradigm:** a vertical story path with an offset rail, chapter markers, and editorial spreads instead of a uniform card grid. Wide sections alternate between dense text and open symbolic space.
 - **Signature elements:** a dotted journey line, orbital rings around key phrases, and pinned note labels that resemble annotations in a reader’s copy.
 - **Interaction philosophy:** the site invites the visitor to choose, pause, and interpret rather than merely scan. Buttons read like prompts; feedback uses the same visual language as the journey map.

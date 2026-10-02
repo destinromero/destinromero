@@ -1,8 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Red lizard on a ghostly shoulder">
-<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#172533"/><stop offset="1" stop-color="#3a1e2a"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="18"/></filter></defs>
-<rect width="800" height="500" fill="url(#bg)"/><circle cx="620" cy="125" r="110" fill="#e94f42" opacity=".18" filter="url(#glow)"/>
-<path d="M120 455 C210 330 315 270 470 278 C560 282 625 350 710 455Z" fill="#cbd7d5" opacity=".22"/><path d="M310 360 C360 310 420 290 500 305" fill="none" stroke="#f7e9d5" stroke-width="16" opacity=".35"/>
-<path d="M260 285 C315 245 395 222 480 245 C535 260 575 302 585 342 C532 330 493 320 447 322 C385 324 330 314 260 285Z" fill="#e53e3d" stroke="#ff9a68" stroke-width="8"/>
-<path d="M260 285 L215 250 L245 294 L195 315 L267 314 M480 245 L526 214 L507 260 L565 270" fill="#e53e3d" stroke="#ff9a68" stroke-width="7" stroke-linejoin="round"/>
-<circle cx="300" cy="272" r="10" fill="#fff4d6"/><circle cx="302" cy="273" r="4" fill="#172533"/><path d="M330 300 Q410 343 505 298" fill="none" stroke="#641f35" stroke-width="8"/><path d="M350 245 Q390 200 430 240" fill="none" stroke="#ffb07f" stroke-width="6" opacity=".8"/>
-<g fill="#f7e9d5" opacity=".65"><circle cx="115" cy="110" r="4"/><circle cx="170" cy="180" r="3"/><circle cx="700" cy="300" r="5"/><circle cx="650" cy="390" r="3"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A recognizable red lizard perched on a ghostly shoulder">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#172533"/><stop offset="1" stop-color="#3a1e2a"/></linearGradient>
+  <linearGradient id="lizard" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#ff654d"/><stop offset="1" stop-color="#b92335"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="800" height="500" fill="url(#bg)"/>
+<circle cx="620" cy="125" r="110" fill="#e94f42" opacity=".18" filter="url(#glow)"/>
+<path d="M100 452 C195 350 315 305 470 320 C575 330 648 375 720 452Z" fill="#d6e0da" opacity=".27"/>
+<path d="M250 365 C340 320 438 318 535 350" fill="none" stroke="#f7e9d5" stroke-width="17" opacity=".4"/>
+
+<!-- unmistakable lizard silhouette -->
+<path d="M230 235 C270 185 350 164 432 185 C485 198 535 228 570 261 C600 289 620 312 657 318 C682 322 695 337 681 350 C660 369 624 356 590 342 C546 324 510 321 467 328 C408 338 352 331 302 304 C270 287 239 266 230 235Z" fill="url(#lizard)" stroke="#ffb079" stroke-width="8" stroke-linejoin="round"/>
+<!-- head and snout -->
+<path d="M232 235 C245 204 279 180 315 182 C341 184 356 205 347 227 C337 252 306 267 272 259 L235 250Z" fill="#ed4b42" stroke="#ffb079" stroke-width="7"/>
+<path d="M231 236 L188 225 L222 255 L184 273 L253 267" fill="#d9323b" stroke="#ffb079" stroke-width="7" stroke-linejoin="round"/>
+<!-- eye -->
+<circle cx="285" cy="215" r="13" fill="#fff1c7"/><ellipse cx="288" cy="215" rx="4" ry="8" fill="#182633"/>
+<!-- mouth -->
+<path d="M223 245 Q272 257 318 231" fill="none" stroke="#762036" stroke-width="7" stroke-linecap="round"/>
+<!-- four legs and toes -->
+<path d="M300 278 Q270 306 246 337 L214 345 M251 335 L225 329 M250 336 L231 352 M435 319 Q430 357 399 382 L367 390 M401 381 L376 373 M400 382 L386 401 M505 306 Q520 343 551 359 L582 360 M553 358 L575 345 M552 359 L580 374 M360 317 Q345 348 318 364 L287 365 M320 363 L300 349 M320 364 L303 380" fill="none" stroke="#e53e3d" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- long curling tail -->
+<path d="M570 300 C635 260 693 270 713 305 C728 332 712 361 681 365" fill="none" stroke="#c62d39" stroke-width="31" stroke-linecap="round"/>
+<path d="M570 300 C635 260 693 270 713 305 C728 332 712 361 681 365" fill="none" stroke="#ff8b67" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+<!-- scale pattern -->
+<g fill="none" stroke="#ff9a68" stroke-width="3" opacity=".75">
+  <path d="M350 214 q12 12 24 0 M378 220 q12 12 24 0 M406 227 q12 12 24 0 M434 235 q12 12 24 0"/>
+  <path d="M340 246 q12 12 24 0 M368 252 q12 12 24 0 M396 258 q12 12 24 0 M424 264 q12 12 24 0"/>
+  <path d="M335 278 q12 12 24 0 M363 284 q12 12 24 0 M391 290 q12 12 24 0 M419 296 q12 12 24 0"/>
+</g>
+<g fill="#f7e9d5" opacity=".65"><circle cx="115" cy="110" r="4"/><circle cx="170" cy="180" r="3"/><circle cx="700" cy="300" r="5"/><circle cx="650" cy="390" r="3"/></g>
+</svg>

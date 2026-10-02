@@ -169,9 +169,11 @@ function vitePluginPublicPlatformConfig(): Plugin {
 }
 
 const plugins = [vitePluginPublicPlatformConfig(), react(), tailwindcss(), jsxLocPlugin(), vitePluginManusDebugCollector()];
+const isGitHubPagesBuild = process.env.GITHUB_ACTIONS === "true";
 
 export default defineConfig({
   plugins,
+  base: isGitHubPagesBuild ? "/destinromero/" : "/",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),

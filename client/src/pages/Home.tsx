@@ -62,6 +62,8 @@ type CarryChoice = {
   icon: LucideIcon;
 };
 
+const publicBase = import.meta.env.BASE_URL;
+
 const routeStops: RouteStop[] = [
   { number: "01", name: "The Grey Town", kicker: "A place made of almost", body: "The narrator begins in a city where houses keep moving farther apart. It is crowded, but nothing feels solid. The town becomes a picture of a life built around distance, appetite, and avoidance.", note: "restlessness / self protection", icon: CircleDot, tone: "grey" },
   { number: "02", name: "The Bus Ride", kicker: "A direction is chosen", body: "A strange bus carries ghosts away from the town. The ride is not a reward for being good, it is an interruption, a chance to see that another kind of reality is possible.", note: "grace arrives before certainty", icon: Compass, tone: "blue" },
@@ -71,10 +73,10 @@ const routeStops: RouteStop[] = [
 ];
 
 const encounters: Encounter[] = [
-  { number: "01", name: "The Red Lizard", role: "Desire that will not be released", body: "A small creature sits on the Ghost’s shoulder and keeps whispering. It looks harmless, but it has organized the Ghost’s whole identity.", reveals: "Grace may feel like loss before it feels like freedom.", icon: Zap, accent: "coral", image: "/encounter-red-lizard.svg" },
-  { number: "02", name: "The Bishop", role: "Ideas that become a hiding place", body: "He can explain everything except why he should stop explaining. His intelligence is real, his refusal to be changed is the trap.", reveals: "Being informed is not the same as being transformed.", icon: Lightbulb, accent: "blue", image: "/encounter-bishop.svg" },
-  { number: "03", name: "The Tragedian", role: "Self pity with a microphone", body: "The Ghost speaks through a dramatic figure who makes every moment about injury. The performance is persuasive, and completely closed to joy.", reveals: "A story about pain can become another way to avoid love.", icon: Feather, accent: "gold", image: "/encounter-tragedian.svg" },
-  { number: "04", name: "The Bright Person", role: "Love with a steady voice", body: "The Bright People do not shame the Ghosts. They tell the truth, stay present, and keep inviting. Their patience has the weight of reality.", reveals: "Mercy is not pretending the problem is small, it is believing change is possible.", icon: Heart, accent: "green", image: "/encounter-bright-person.svg" },
+  { number: "01", name: "The Red Lizard", role: "Desire that will not be released", body: "A small creature sits on the Ghost’s shoulder and keeps whispering. It looks harmless, but it has organized the Ghost’s whole identity.", reveals: "Grace may feel like loss before it feels like freedom.", icon: Zap, accent: "coral", image: `${publicBase}encounter-red-lizard.svg` },
+  { number: "02", name: "The Bishop", role: "Ideas that become a hiding place", body: "He can explain everything except why he should stop explaining. His intelligence is real, his refusal to be changed is the trap.", reveals: "Being informed is not the same as being transformed.", icon: Lightbulb, accent: "blue", image: `${publicBase}encounter-bishop.svg` },
+  { number: "03", name: "The Tragedian", role: "Self pity with a microphone", body: "The Ghost speaks through a dramatic figure who makes every moment about injury. The performance is persuasive, and completely closed to joy.", reveals: "A story about pain can become another way to avoid love.", icon: Feather, accent: "gold", image: `${publicBase}encounter-tragedian.svg` },
+  { number: "04", name: "The Bright Person", role: "Love with a steady voice", body: "The Bright People do not shame the Ghosts. They tell the truth, stay present, and keep inviting. Their patience has the weight of reality.", reveals: "Mercy is not pretending the problem is small, it is believing change is possible.", icon: Heart, accent: "green", image: `${publicBase}encounter-bright-person.svg` },
 ];
 
 const themes: Theme[] = [

@@ -148,8 +148,12 @@ em { color: var(--coral); font-family: var(--serif); font-weight: 500; }
 
 .encounters-section { padding-top: clamp(90px, 11vw, 150px); padding-bottom: clamp(100px, 12vw, 160px); }
 .encounter-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--line); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.encounter-card { background: var(--paper); min-height: 385px; padding: 22px clamp(17px, 2vw, 29px) 25px; display: flex; flex-direction: column; transition: transform .3s ease, background .3s ease; }
+.encounter-card { background: var(--encounter-wash, var(--paper)); min-height: 385px; padding: 0 clamp(17px, 2vw, 29px) 25px; display: flex; flex-direction: column; border-top: 4px solid var(--encounter-accent, var(--coral)); transition: transform .3s ease, background .3s ease; }
+.accent-coral { --encounter-accent: #e96f4e; --encounter-wash: #fff0eb; }.accent-blue { --encounter-accent: #6e93ac; --encounter-wash: #edf4f7; }.accent-gold { --encounter-accent: #d8ac63; --encounter-wash: #fff5dc; }.accent-green { --encounter-accent: #559f7a; --encounter-wash: #eaf6ef; }
 .encounter-card:hover { background: var(--cream); transform: translateY(-6px); position: relative; z-index: 1; }
+.encounter-image-wrap { height: 145px; margin: 0 -1px 20px; overflow: hidden; background: var(--night); }
+.encounter-image { width: 100%; height: 100%; display: block; object-fit: cover; transition: transform .5s ease, filter .5s ease; }
+.encounter-card:hover .encounter-image { transform: scale(1.04); filter: saturate(1.12); }
 .encounter-top { display: flex; align-items: center; justify-content: space-between; color: var(--coral); margin-bottom: 46px; }
 .accent-blue .encounter-top { color: #6e93ac; }.accent-gold .encounter-top { color: var(--gold); }.accent-green .encounter-top { color: #559f7a; }
 .encounter-number { font: 10px var(--mono); color: var(--grey-town); }

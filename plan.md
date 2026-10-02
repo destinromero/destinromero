@@ -27,5 +27,5 @@ A single-page, presentation-friendly class project site about *The Great Divorce
 ## Implementation notes
 - Use the initialized React/Vite stack with no server, database, auth, or new dependencies.
 - Keep the page self-contained and classroom-safe; no external API or user account is needed.
-- Use lucide-react icons for the small mark and interface cues. No decorative image is necessary; the visual identity is built from CSS, typography, and inline motifs.
+- Use lucide-react icons for the small mark and interface cues. The encounter gallery uses four standalone editorial illustrations for the Red Lizard, Bishop, Tragedian, and Bright Person. Each card pairs its artwork with a distinct coral, blue, gold, or green color wash.
 - The project should run through `pnpm dev:static` on port 3000 and publish as a static build.

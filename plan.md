@@ -1,10 +1,10 @@
-# The Great Divorce Project — implementation plan
+# The Great Divorce Project implementation plan
 
 ## Product scope
 A single-page, presentation-friendly class project site about *The Great Divorce* by C.S. Lewis. It must clearly identify the novel and student author, explain the symbolic journey, surface important encounters and themes, include memorable ideas/short quotations or paraphrases, and end with an original interactive reflection. The student name is editable in the page and persisted locally so the project is ready to personalize before submission.
 
 ## Design direction
-- **Design movement:** Literary editorial / liminal sci-fi — an art-book interface that moves from charcoal-grey uncertainty toward warm, luminous clarity.
+- **Design movement:** Literary editorial / liminal science fiction, an art book interface that moves from charcoal grey uncertainty toward warm, luminous clarity.
 - **Core principles:** narrative before decoration; high-contrast reading; tactile “field notes” details; purposeful motion that feels like a journey.
 - **Color philosophy:** ink navy and mist grey create the Grey Town; parchment and pale gold suggest the solid country; vermilion marks choices, warnings, and moments of honesty; sea-glass green is reserved for transformation and “yes.”
 - **Layout paradigm:** a vertical story path with an offset rail, chapter markers, and editorial spreads instead of a uniform card grid. Wide sections alternate between dense text and open symbolic space.

@@ -63,7 +63,7 @@ type CarryChoice = {
 };
 
 const routeStops: RouteStop[] = [
-  { number: "01", name: "The Grey Town", kicker: "A place made of almost", body: "The narrator begins in a city where houses keep moving farther apart. It is crowded, but nothing feels solid. The town becomes a picture of a life built around distance, appetite, and avoidance.", note: "restlessness / self-protection", icon: CircleDot, tone: "grey" },
+  { number: "01", name: "The Grey Town", kicker: "A place made of almost", body: "The narrator begins in a city where houses keep moving farther apart. It is crowded, but nothing feels solid. The town becomes a picture of a life built around distance, appetite, and avoidance.", note: "restlessness / self protection", icon: CircleDot, tone: "grey" },
   { number: "02", name: "The Bus Ride", kicker: "A direction is chosen", body: "A strange bus carries ghosts away from the town. The ride is not a reward for being good, it is an interruption, a chance to see that another kind of reality is possible.", note: "grace arrives before certainty", icon: Compass, tone: "blue" },
   { number: "03", name: "The Riverbank", kicker: "Reality becomes solid", body: "The grass cuts the ghosts’ feet. Rain feels like needles. The country is beautiful, but it is not easy to enter. What is more real can also be more demanding.", note: "discomfort / honesty", icon: Footprints, tone: "green" },
   { number: "04", name: "The Solid Country", kicker: "Love asks for a yes", body: "Bright people meet the ghosts and invite them to stay. Each meeting reveals a choice, keep the familiar self, or let the self be changed by joy, humility, and relationship.", note: "freedom / surrender", icon: Mountain, tone: "gold" },
@@ -73,7 +73,7 @@ const routeStops: RouteStop[] = [
 const encounters: Encounter[] = [
   { number: "01", name: "The Red Lizard", role: "Desire that will not be released", body: "A small creature sits on the Ghost’s shoulder and keeps whispering. It looks harmless, but it has organized the Ghost’s whole identity.", reveals: "Grace may feel like loss before it feels like freedom.", icon: Zap, accent: "coral", image: "/encounter-red-lizard.svg" },
   { number: "02", name: "The Bishop", role: "Ideas that become a hiding place", body: "He can explain everything except why he should stop explaining. His intelligence is real, his refusal to be changed is the trap.", reveals: "Being informed is not the same as being transformed.", icon: Lightbulb, accent: "blue", image: "/encounter-bishop.svg" },
-  { number: "03", name: "The Tragedian", role: "Self-pity with a microphone", body: "The Ghost speaks through a dramatic figure who makes every moment about injury. The performance is persuasive, and completely closed to joy.", reveals: "A story about pain can become another way to avoid love.", icon: Feather, accent: "gold", image: "/encounter-tragedian.svg" },
+  { number: "03", name: "The Tragedian", role: "Self pity with a microphone", body: "The Ghost speaks through a dramatic figure who makes every moment about injury. The performance is persuasive, and completely closed to joy.", reveals: "A story about pain can become another way to avoid love.", icon: Feather, accent: "gold", image: "/encounter-tragedian.svg" },
   { number: "04", name: "The Bright Person", role: "Love with a steady voice", body: "The Bright People do not shame the Ghosts. They tell the truth, stay present, and keep inviting. Their patience has the weight of reality.", reveals: "Mercy is not pretending the problem is small, it is believing change is possible.", icon: Heart, accent: "green", image: "/encounter-bright-person.svg" },
 ];
 
@@ -82,7 +82,7 @@ const themes: Theme[] = [
   { name: "Pride", definition: "Pride is not only arrogance, it is the refusal to receive help or be seen clearly.", question: "Which part of me must always be right?", icon: Star },
   { name: "Grace", definition: "Grace appears as an invitation that arrives before the Ghost can make a case for deserving it.", question: "Can I accept a gift without controlling it?", icon: Sparkles },
   { name: "Attachment", definition: "The Ghosts cling to habits, stories, and identities that are smaller than the life they want.", question: "What am I protecting that is hurting me?", icon: LockKeyhole },
-  { name: "Repentance", definition: "Repentance is the brave turn toward reality, not self-hatred, but a willingness to stop defending the old story.", question: "What truth would change my direction?", icon: RotateCcw },
+  { name: "Repentance", definition: "Repentance is the brave turn toward reality, not self hatred, but a willingness to stop defending the old story.", question: "What truth would change my direction?", icon: RotateCcw },
   { name: "Transformation", definition: "Becoming solid means becoming more real, more alive, and more capable of love.", question: "What would a more solid version of me do?", icon: Gem },
   { name: "Freedom", definition: "Heaven is not forced on anyone. The open gate still requires an honest yes.", question: "What would I choose if fear did not decide first?", icon: Sun },
 ];
